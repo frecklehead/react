@@ -1,6 +1,8 @@
 import KgButton from "./KgButton";
 import Hello from "./hello";
 import Random from "./random";
+import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 function App(){
   return <div>
      <h1>
