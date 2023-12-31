@@ -14,14 +14,14 @@ function App() {
     <center>
 
       <div className="App">
-      <RandomMovingButton
+      <Button
         isMoving={isMoving}
         onClick={toggleMovement}
         onMouseEnter={() => setIsMoving(true)}
         onMouseLeave={() => setIsMoving(false)}
       >
     No
-      </RandomMovingButton>
+      </Button>
     </div>
     </center>  );
 }
