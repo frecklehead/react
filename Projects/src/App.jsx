@@ -1,18 +1,13 @@
+import Appname from "/home/frecklehead/Desktop/react/Projects/src/components/appname.jsx";
+import Addtodo from "./components/apptodo";
+import Todoitem from "./components/todoitem";
 function App() {
   return (
     <center class=" todo-container">
-      <h1> TODO App</h1>
+      <Appname/>
       <div class="container text-center ">
-        <div class="row">
-          <div class="col-4">
-            <input type="text"  placeholder="Enter Todo here"/>
-
-          </div>
-          <div class="col-4"><input type="date"  /></div>
-          <div class="col-2">
-          <button type="button" class="btn btn-primary">Add</button>
-          </div>
-        </div>
+        <Addtodo></Addtodo>
+        <Todoitem></Todoitem>
       </div>
     </center>
   );
