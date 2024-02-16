@@ -1,21 +1,15 @@
-import Appname from "/home/frecklehead/Desktop/react/Projects/src/components/appname.jsx";
-import Addtodo from "./components/apptodo";
-import Todoitem from "./components/todoitem";
-import "/home/frecklehead/Desktop/react/Projects/src/app.css"
+import React from 'react';
+import './App.css';
+import Dashboard from './dashboard';
+import Store from './Store';
 
 function App() {
   return (
-    <>
-    
-    
-    <center class=" todo-container">
-    <Appname/>
-  <Addtodo></Addtodo>
-        <Todoitem></Todoitem>
-     
-    </center>
-    </>
-   
+    <div className="App">
+      <Store>
+        <Dashboard />
+      </Store>
+    </div>
   );
 }
 
